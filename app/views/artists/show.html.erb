@@ -1,0 +1,7 @@
+<h1>Artist Page</h1>
+<p><%=@artist.name%></p>
+<p><%=@artist.bio%></p>
+<p><%=link_to "List of Songs", artists_path%></p>
+<p><%=link_to "Artists List", artists_path%></p>
+<p><%=link_to "Update this Artist's Info", edit_artist_path%></p>
+<p><%=link_to "Remove this artist", artist_path(@artist), method: 'delete'%></p>
